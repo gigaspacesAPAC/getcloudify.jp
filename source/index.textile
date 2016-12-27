@@ -180,7 +180,7 @@ category: home
                         <strong><span style="color:#39b9d4">Cloudify 3.4のリリース</span></strong>
                     </h4>
                    <p>
-                        <span style="color:#ffffff">Azureのサポート並びに、VMwareスタックやOpenStack、コンテナをすべて単一のブループリントでサポートするCloudify 3.4は、<strong>クラウドポータビリティ</strong>を次の次元へと引き上げます。</span>
+                        <span style="font-size: 14px;color:#ffffff">Azureのサポート並びに、VMwareスタックやOpenStack、コンテナをすべて単一のブループリントでサポートするCloudify 3.4は、<strong>クラウドポータビリティ</strong>を次の次元へと引き上げます。</span>
                     </p> 
                     <ul>
                         <li style="list-style-type:none; text-align:center;"><a class="btn btn-rounded btn-medium btn-theme" href="/cloudify-3.4-enterprise-hybrid-cloud-kubernetes-cloud-orchestration-amazon-openstack-gcp-azure.html">詳細</a></li>
@@ -193,11 +193,11 @@ category: home
                     <div class="aligncenter">
                     <p><img src="/img/orch-wp.png" width="100" alt="オーケストレーションvs. PaaS vs. CMP" style="float: left;"></p></div>
                     <h4>
-                        <strong><span style="color:#39b9d4">企業におけるクラウド管理について学ぶ(英語)/span></strong>
+                        <strong><span style="color:#39b9d4">企業におけるクラウド管理について学ぶ(英語)</span></strong>
                     </h4>
                     
                    <p>
-                        <span style="color:#ffffff">新たに公開した白書『オーケストレーションvs. PaaS vs. CMP』を読み、クラウドにおける御社エンタープライズアプリケーションのデプロイメントや管理、スケーリングに最適なツールをお選びください。</span> 
+                        <span style="font-size: 14px;color:#ffffff">新たに公開した白書『オーケストレーションvs. PaaS vs. CMP』を読み、クラウドにおける御社エンタープライズアプリケーションのデプロイメントや管理、スケーリングに最適なツールをお選びください。</span> 
                     </p> 
                     <ul>
                         <li style="list-style-type:none; text-align:center;">
