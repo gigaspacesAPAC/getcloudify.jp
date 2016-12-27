@@ -5,20 +5,35 @@ redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 highlighter: true
 encoding: UTF-8
-exclude: ["node_modules"]
-paginate: 5
+#exclude: ["node_modules"]
+#do not commit this exclude part
+#exclude:
+#  - '_posts'
+#  - 'guide' 
+#  - 'author_generator'
+#end - do not commit this exclude part
+paginate: 10
 paginate_path: "blog/page:num"
-description: With Cloudify you can deploy the same application in your own data center or on the cloud of your choice
+description: Cloudify is an open source application and network orchestration framework based on TOSCA that supports hybrid cloud deployments bridging public and private environments.
 
-latest_cloudify_version: 3.2
-
-github_blueprints_search_query: "-blueprint+in:name+fork:true+user:cloudify-examples"
-github_plugins_search_query: "-plugin+in:name+fork:true+user:cloudify-examples"
-github_integrations_search_query: "-integration+in:name+fork:true+user:cloudify-examples"
-
-default_examples_version: "master"
-default_examples_version_fallback: "master"
-examples_cors_proxy: "https://d95fn1u5c9.execute-api.us-west-2.amazonaws.com/prod/proxy"
+latest_cloudify_version: 3.4
 
 gems:
   - jekyll-seo-tag
+
+#Manage Download files:
+#-----------------------Change this when new version is up---------------------#
+Release_version: 3.4.0~2.ga-402
+Cloudify_version: 3.4.0.2
+Docs_version: 3.4.0
+Short_version: 3.4
+Release: 402
+aws_plugin_version: 1.4.3
+vcloud_plugin_version: 1.3.1
+vsphere_plugin_version: 2.0.1
+openstack_plugin_version: 1.5
+fabric_plugin_version: 1.4.2
+diamond_plugin_version: 1.3.4
+docker_plugin_version: 1.3.2
+psutil_plugin_version: 1.0.2
+hostpool_plugin_version: 1.4
