@@ -1,17 +1,15 @@
 ---
 layout: bt_default
-title:  オープンソースのクラウド・オーケストレーションを実現
+title:  Pure-Play Cloud Orchestration & Automation Based on TOSCA
 category: home 
 ---
 
 
     <section id="featured" class=" hpBannerWrap">
-    <!-- start slider -->
     <div class="container">
         <div class="row">
 
             <div id="da-slider" class="da-slider">
-                <!-- Slide 1 -->
                 <div class="da-slide">
                     <div class="bannerText span12">
                         <h1>新しい<span>ハイブリッドクラウドスタック</span>を一つのツールで。</h1>
@@ -22,30 +20,11 @@ category: home
                         <img class="bannerTextImg" src="img/homePage/hpBanner1.png" alt="Cloudify - New Intelligence in Cloud Orchestration and Cloud Automation" />
                     </a>
                 </div>
-                <!-- Slide 1 End -->
-                <!-- Slide 2 -->
-                <!--<div class="da-slide">
-                    <div class="bannerText span12">
-                        <h1> <span style="font-size:38px">Join The Cloudify NFV Lab Today!</span></h1>
-                        <a href="/NFV-Labs-On-Demand.html" class="hp-btn-getCloudify da-link">Register Now</a>
-                        <br /><font color="#ffffff" style="font-size:13px;">Or </font><a href="/2016/04/27/cloudify-nfv-lab-on-demand-full-scale-environment-openstack-summit-cloud-orchestration.html"><strong><font color="#ffffff" style="font-size:13px;">Read More</strong></a></font>
-                    </div>
-                    <img class="bannerTextImg" src="img/hpbannernfv.png" alt="Cloudify - Intelligent NFV Orchestration in Multi-VIM Environments" /></a>
-                </div>-->
-                <!-- Slide 2 End -->
-                <!--<nav class="da-arrows">
-                    <span class="da-arrows-prev"></span>
-                    <span class="da-arrows-next"></span>
-                </nav>-->
             </div>
     </div>
     </div>
-    <!-- end slider -->
     </section>
 
-
-
-<!--2 colors boxes ENTERPRISE CLOUD & NFV -->
 <section id="twoColorsBoxes">
     <div class="container-fluid">
         <div class="row-fluid">
@@ -61,9 +40,6 @@ category: home
 
                     <p>
                         Cloudifyの最新のリリースでは、上位5番目までのクラウドに対するプラグインサポートを通じたハイブリッドクラウドモデルにより、コンテナ化/非コンテナ化された作業も含め、現在の大企業における作業の90%をカバーします。Cloudifyならハイブリッドインフラストラクチャー上のアプリケーションのライフサイクルを、単一の画面から多彩なツールセットをプラグインして完全に管理することができます。</p>
-                        
-
-
                     <ul>
                     <p>&#160;</p>
                         <li><a class="regBtn" href="/downloads/get_cloudify.html">ダウンロード</a></li>
@@ -90,9 +66,6 @@ category: home
     </div>
 </section>
 
-
-
-<!--PLUGINS  -->
 <section id="content" style="background:#eeeeee">
     <div class="container">
         <div class="row">
@@ -195,7 +168,6 @@ category: home
 
 </section>
 
-<!--Cloudify 3.4 Has Landed! -->
 <section id="darkGrayShapes">
     <div class="container">
         <div class="row-fluid">
@@ -228,9 +200,6 @@ category: home
                         <span style="color:#ffffff">新たに公開した白書『オーケストレーションvs. PaaS vs. CMP』を読み、クラウドにおける御社エンタープライズアプリケーションのデプロイメントや管理、スケーリングに最適なツールをお選びください。</span> 
                     </p> 
                     <ul>
-                        <!--<li style="list-style-type:none; text-align:center;">
-                        <a class="btn btn-rounded btn-medium btn-theme" href="/brochures/Cloud-Management-Enterprise _Aug-2016.pdf" target="_blank" class="downloadOrch" data-btn-split="4" data-btn-id="Orchestration White Paper Download" data-btn-type="Orchestration White Paper Download" data-thanks-page="" title="Orchestration vs. PaaS vs. CMP White Paper August 2016">Download Now</a>
-                        </li>-->
                         <li style="list-style-type:none; text-align:center;">
                             <a href="{{ site.baseurl }}/brochures/Cloud-Management-Enterprise _Aug-2016.pdf" target="_blank" class="btn btn-rounded btn-medium btn-theme downloadNfvOrc" data-btn-split="4" data-btn-id="NFV White Paper April 2015" data-btn-type="NFV White Paper April 2015" data-thanks-page="" title="Orchestration vs. PaaS vs. CMP White Paper August 2016">ダウンロードする</a>
                         <li />
@@ -247,166 +216,9 @@ category: home
     </div>
 </section>
 
-    <!--<section class="content" style="background:#f9f9f9;">
-    <div class="container">
-    <div class="row">
-    <br/>
-    <br/>   
-            <div class="span12 aligncenter no-margin">
-        
-                <span style="font-size: 24px;vertical-align: -webkit-baseline-middle;padding-bottom: 10px;">
-                    <strong><font color="#00B4DA">Cloudify 3.3 </font> Has Landed!</strong>
-                </span>
-                <a class="btn btn-large btn-theme btn-rounded" href="/cloudify-3.3-nfv-hybrid-cloud-workloads-orchestration-openstack-murano-kubernetes.html"><i class="icon-bolt"></i><strong> Learn More</strong></a>
-                
-            </div>
-        
-            <div class="span3"></div>
-        </div>
-    <hr/>
-            <div class="row">
-    <div class="span3">
-                        <div class="box aligncenter">
-                            <div class="aligncenter icon">
-                                <i class="icon">
-                                <a href="{{ site.baseurl }}/openstack-architecture-cloudify.html"><img src="img/HPTile-OS2.png" width="135"/></a>
-                                </i>
-                            </div>
-                            <div class="text">
-                                <h3><strong>Native to OpenStack</strong></h3>
-                                <a href="{{ site.baseurl }}/openstack-architecture-cloudify.html">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="span3">
-                        <div class="box aligncenter">
-                            <div class="aligncenter icon">
-                                <i class="icon">
-                                <a href="{{ site.baseurl }}/vmware-hybrid-cloud.html"><img src="img/HPTile-VMW.png" width="135"/></a>
-                                </i>
-                            </div>
-                            <div class="text">
-                                <h3><strong>Cloudify for VMware</strong></h3>
-                                <a href="{{ site.baseurl }}/vmware-hybrid-cloud.html">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                            <div class="span3">
-                        <div class="box aligncenter">
-                            <div class="aligncenter icon">
-                                <i class="icon">
-                                    <a href="cloud_orchestration_cloud_automation.html#HPLink2"><img src="img/HPTile-Cloud2.png" width="135" /></a>
-                                </i>
-                            </div>
-                            <div class="text">
-                                <h3><strong>Or Any Other Cloud</strong></h3>
-                                <a href="cloud_orchestration_cloud_automation.html#HPLink2">Learn more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="span3">
-                        <div class="box aligncenter">
-                            <div class="aligncenter icon">
-                                <i class="icon">
-                                    <a href="network-function-virtualization-vnf-nfv-orchestration-sdn-platform.html"><img src="img/HPTile-NFV.png" width="135"/></a>
-                                </i>
-                            </div>
-                            <div class="text">
-                                <h3><strong>NFV MANO with TOSCA</strong></h3>
-                                <a href="network-function-virtualization-vnf-nfv-orchestration-sdn-platform.html">Learn more</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="span1"></div>
-                </div>
-        </div>
-</section>-->
-
-<!--<section id="content">
-    <div class="container"> 
-    <div class="row">
-            <div class="span12">
-            <br/>
-            <br/>
-                <h2 style="margin-top:30px;"><a href="http://getcloudify.org/examples">A Plugin for<strong> Any Technology</strong></a></h2>
-                <ul id="mycarousel" class="jcarousel-skin-tango recent-jcarousel clients">
-                    <li>
-                    <a href="http://docs.getcloudify.org/3.3.0/plugins/openstack/" target="_blank" class="recipeName">
-                    <img src="img/recipes/OpenStack Logo-BS.png" class="client-logo" alt="OpenStack Plugin" />
-                    </a>
-                    </li>
-                    <li>
-                    <a href="http://docs.getcloudify.org/3.3.0/plugins/vcloud/" target="_blank" class="recipeName">
-                    <img src="img/recipes/VMware Logo-BS.png" class="client-logo" alt="vCloud Plugin" />
-                    </a>
-                    </li>
-                    <li>
-                    <a href="http://docs.getcloudify.org/3.3.0/plugins/aws/" target="_blank" class="recipeName">
-                    <img src="img/recipes/AWS Logo-BS.png" class="client-logo" alt="AWS Plugin" />
-                    </a>
-                    </li>
-                    <li>
-                    <a href="http://getcloudify.org/examples/home.html#?repo=46219796" target="_blank" class="recipeName">
-                    <img src="img/recipes/clearwater.jpg" class="client-logo" alt="Clearwater Plugin" />
-                    </a>
-                    </li>
-                    <li>
-                    <a href="http://getcloudify.org/cloudify-kubernetes-orchestration-docker-container-cluster-mist.html" target="_blank" class="recipeName">
-                    <img src="img/recipes/kubernetes.jpg" class="client-logo" alt="Kubernetes Plugin" />
-                    </a>
-                    </li>   
-                    <li>
-                    <a href="http://docs.getcloudify.org/3.3.0/plugins/docker/" target="_blank" class="recipeName">
-                    <img src="img/recipes/Docker Logo-BS.png" class="client-logo" alt="Docker Plugin" />
-                    </a>
-                    </li>
-                    <li>
-                    <a href="https://github.com/cloudify-examples/elk-blueprint" target="_blank" class="recipeName">
-                    <img src="img/recipes/elk_stack.jpg" class="client-logo" alt="ELK Plugin" />
-                    </a>
-                    </li>
-                    <li>
-                    <a href="http://getcloudify.org/examples/home.html#?repo=44914404" target="_blank" class="recipeName">
-                    <img src="img/recipes/gihk.jpg" class="client-logo" alt="GIHK Plugin" />
-                    </a>
-                    </li>
-                    <li>
-                    <a href="http://docs.getcloudify.org/3.3.0/plugins/puppet/" target="_blank" class="recipeName">
-                    <img src="img/recipes/Puppet Logo-BS.png" class="client-logo" alt="Puppet Plugin" />
-                    </a>
-                    </li>
-                    <li>
-                    <a href="http://docs.getcloudify.org/3.3.0/plugins/fabric/" target="_blank" class="recipeName">
-                    <img src="img/recipes/Fabric Logo-BS.png" class="client-logo" alt="Fabric Plugin" />
-                    </a>
-                    </li>
-                    <li>
-                    <a href="http://getcloudify.org/guide/3.2/plugin-softlayer.html" target="_blank" class="recipeName">
-                    <img src="img/recipes/Softlayer Logo-BS.png" class="client-logo" alt="SoftLayer Plugin" />
-                    </a>
-                    </li>
-                </ul>
-                <div class="clear">
-                    
-                    <br/>
-                    <br/>
-                </div>
-            </div>
-                
-        </div>
-    </div>
-</div>
-</section>-->
-
-
 <section class="callaction" style="background:#fff;" >  
     <div class="container">
-            
         <div class="row-fluid">
-    
-                                
-                                
             <div class="span5"><img src="/img/HPTileForrester.png" width="200" style="float: left; display: inline; margin-right:10px;"><font color="#00B4DA" style="font-size:20px;"><i class="icon-quote-left"></i></font><font color="#5f5e5e" style="font-size:20px;">
             Cloudify<strong><font color="#1d1934">により通信事業者は、コンテナも含めハイブリッドインフラ上のNFVデプロイメントを単一の画面から管理し、オーケストレイトできるようになります。</font></strong> </font>
             <font color="#00B4DA" style="font-size:20px;"><i class="icon-quote-right"></i></font></div>
@@ -417,16 +229,9 @@ category: home
             <div class="span6">&nbsp;&nbsp;&nbsp;&nbsp;<img src="/img/HPTile451.png" width="200" style="float: left; display: inline; margin-right:10px;"><font color="#00B4DA" style="font-size:20px;"><i class="icon-quote-left"></i></font><font color="#5f5e5e" style="font-size:20px;">
 GigaSpaces社のCloudifyは、複数の、プライベートおよびパブリックのクラウドプラットフォームのスケーリングとサポートを自動化しました。Cloudifystrong><font color="#1d1934">ではアプリケーションとインフラのライフサイクルのハイブリッドクラウド管理ユースケースの推進に焦点を当てています</font></strong> </font>
             <font color="#00B4DA" style="font-size:20px;"><i class="icon-quote-right"></i></font> </div>
-            
-
-                
                             </div>
                             </div>
     </section>
-    
-    
-
-
 <section id="content" style="background:#3b4250">
     <div class="container"> 
     <div class="row">
@@ -497,31 +302,15 @@ GigaSpaces社のCloudifyは、複数の、プライベートおよびパブリ�
                     </a></div></div>
                     <div class="span1"></div>
                     </div>
-                    
-                    
-                
                 <div class="clear">
-                    
                     <br/>
                     <br/>
                 </div>
             </div>
-                
         </div>
-    
 </section>
-
-    
         <section id="content">
     <div class="container">
-            <!--<div class="row">
-                <div class="span12">
-                <div class="aligncenter">
-                <img src="img/CloudifyIcon-Grey256.png" width="180">
-                <h2><strong>Github Goodies from Cloudify</strong></h2>
-                </div>
-                </div>
-                </div> -->
                 <div class="row">
                     <div class="span3">
                         <div class="box aligncenter">
@@ -588,17 +377,9 @@ GigaSpaces社のCloudifyは、複数の、プライベートおよびパブリ�
                             </div>
                         </div>
                     </div>
-            
-        
-        
-        <!-- divider -->
         <div class="row">
             <div class="span12">
                         <a href="https://plus.google.com/108176824099212244178" rel="publisher"></a>
-
-                
             </div>
         </div>
-        
-
     </section>
